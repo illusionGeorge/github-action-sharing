@@ -8,4 +8,10 @@ jobs:
      runs-on: ubuntu-latest
      steps:
       - name: Say hello
-        run: echo "Hello Github Action!"
+        run: echo "${{env.Greeting}} $FULL_NAME . TODAY is {{env.DAY_OF_WEEK}}"
+        env:
+          $FULL_NAME: 'George Zhao'
+     env:
+      GREETING: Hello
+env:
+  DAY_OF_WEEK: Monday
