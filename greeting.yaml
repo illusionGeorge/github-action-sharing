@@ -1,0 +1,11 @@
+name: Github Action sharing --Greeting
+
+on:
+   push
+
+jobs:
+   Greeting:
+     runs-on: ubuntu-latest
+     step:
+      - name: Say hello
+        run: "Hello Github Action!"
