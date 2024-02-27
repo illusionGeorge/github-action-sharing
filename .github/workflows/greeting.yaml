@@ -14,4 +14,4 @@ jobs:
      env:
       GREETING: Hello
 env:
-  DAY_OF_WEEK: Monday
+   DAY_OF_WEEK: Monday
