@@ -1,0 +1,14 @@
+name: Github Action sharing --List
+
+on:
+   push
+
+jobs:
+   List:
+     runs-on: ubuntu-latest
+     steps:
+       - name: List
+         run: ls -al
+       - name: pwd
+         run: pwd
+     
